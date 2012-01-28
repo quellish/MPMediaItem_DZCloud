@@ -1,0 +1,276 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B5F83B414D3E059007CB3D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B5F83B314D3E059007CB3D8 /* Foundation.framework */; };
+		1B5F83C214D3E09A007CB3D8 /* MPMediaItem+DZCloud.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B5F83C014D3E09A007CB3D8 /* MPMediaItem+DZCloud.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B5F83C314D3E09A007CB3D8 /* MPMediaItem+DZCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5F83C114D3E09A007CB3D8 /* MPMediaItem+DZCloud.m */; };
+		1B5F83C914D3EEB2007CB3D8 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B5F83C814D3EEB2007CB3D8 /* MediaPlayer.framework */; };
+		1B5F83CB14D3F7C2007CB3D8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B5F83CA14D3F7C2007CB3D8 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B5F83B014D3E059007CB3D8 /* libMPMediaItem_DZCloud.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMPMediaItem_DZCloud.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B5F83B314D3E059007CB3D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1B5F83B714D3E059007CB3D8 /* MPMediaItem_DZCloud-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MPMediaItem_DZCloud-Prefix.pch"; sourceTree = "<group>"; };
+		1B5F83C014D3E09A007CB3D8 /* MPMediaItem+DZCloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MPMediaItem+DZCloud.h"; path = "Classes/Extensions/MPMediaItem+DZCloud.h"; sourceTree = "<group>"; };
+		1B5F83C114D3E09A007CB3D8 /* MPMediaItem+DZCloud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MPMediaItem+DZCloud.m"; path = "Classes/Extensions/MPMediaItem+DZCloud.m"; sourceTree = "<group>"; };
+		1B5F83C614D3E664007CB3D8 /* MPMediaItem_DZCloud Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "MPMediaItem_DZCloud Config.xcconfig"; sourceTree = "<group>"; };
+		1B5F83C814D3EEB2007CB3D8 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		1B5F83CA14D3F7C2007CB3D8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B5F83AD14D3E059007CB3D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B5F83CB14D3F7C2007CB3D8 /* AVFoundation.framework in Frameworks */,
+				1B5F83C914D3EEB2007CB3D8 /* MediaPlayer.framework in Frameworks */,
+				1B5F83B414D3E059007CB3D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B5F83A514D3E058007CB3D8 = {
+			isa = PBXGroup;
+			children = (
+				1B5F83C614D3E664007CB3D8 /* MPMediaItem_DZCloud Config.xcconfig */,
+				1B5F83B514D3E059007CB3D8 /* MPMediaItem_DZCloud */,
+				1B5F83B214D3E059007CB3D8 /* Frameworks */,
+				1B5F83B114D3E059007CB3D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B5F83B114D3E059007CB3D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B5F83B014D3E059007CB3D8 /* libMPMediaItem_DZCloud.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B5F83B214D3E059007CB3D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B5F83CA14D3F7C2007CB3D8 /* AVFoundation.framework */,
+				1B5F83C814D3EEB2007CB3D8 /* MediaPlayer.framework */,
+				1B5F83B314D3E059007CB3D8 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B5F83B514D3E059007CB3D8 /* MPMediaItem_DZCloud */ = {
+			isa = PBXGroup;
+			children = (
+				1B5F83C414D3E0DC007CB3D8 /* Classes */,
+				1B5F83B614D3E059007CB3D8 /* Supporting Files */,
+			);
+			path = MPMediaItem_DZCloud;
+			sourceTree = "<group>";
+		};
+		1B5F83B614D3E059007CB3D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B5F83B714D3E059007CB3D8 /* MPMediaItem_DZCloud-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B5F83C414D3E0DC007CB3D8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1B5F83C514D3E0E5007CB3D8 /* Extensions */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1B5F83C514D3E0E5007CB3D8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1B5F83C014D3E09A007CB3D8 /* MPMediaItem+DZCloud.h */,
+				1B5F83C114D3E09A007CB3D8 /* MPMediaItem+DZCloud.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1B5F83AE14D3E059007CB3D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B5F83C214D3E09A007CB3D8 /* MPMediaItem+DZCloud.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B5F83AF14D3E059007CB3D8 /* MPMediaItem_DZCloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B5F83BD14D3E059007CB3D8 /* Build configuration list for PBXNativeTarget "MPMediaItem_DZCloud" */;
+			buildPhases = (
+				1B5F83AC14D3E059007CB3D8 /* Sources */,
+				1B5F83AD14D3E059007CB3D8 /* Frameworks */,
+				1B5F83AE14D3E059007CB3D8 /* Headers */,
+				1B5F83C714D3E742007CB3D8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MPMediaItem_DZCloud;
+			productName = MPMediaItem_DZCloud;
+			productReference = 1B5F83B014D3E059007CB3D8 /* libMPMediaItem_DZCloud.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B5F83A714D3E058007CB3D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1B5F83AA14D3E058007CB3D8 /* Build configuration list for PBXProject "MPMediaItem_DZCloud" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1B5F83A514D3E058007CB3D8;
+			productRefGroup = 1B5F83B114D3E059007CB3D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B5F83AF14D3E059007CB3D8 /* MPMediaItem_DZCloud */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B5F83C714D3E742007CB3D8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "DOCUMENTATION_DIR=\"Documentation\"\nBUNDLE_ID=$(/usr/libexec/PlistBuddy -c \"Print :CFBundleIdentifier\" \"${BUILD_ROOT}/${INFOPLIST_PATH}\")\n\n# DOCUMENTATION_FOLDER_PATH\n\nif [ -e /usr/local/bin/appledoc ] ; then\n/usr/local/bin/appledoc --project-name $PRODUCT_NAME --output $DOCUMENTATION_DIR  --logformat xcode --exit-threshold 2 --verbose xcode --docset-bundle-filename \"$BUNDLE_ID.$PRODUCT_NAME.docset\" .\nelse\necho \"AppleDoc is not installed in /usr/local/bin , you can download it from https://github.com/tomaz/appledoc\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B5F83AC14D3E059007CB3D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B5F83C314D3E09A007CB3D8 /* MPMediaItem+DZCloud.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1B5F83BB14D3E059007CB3D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1B5F83BC14D3E059007CB3D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B5F83BE14D3E059007CB3D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MPMediaItem_DZCloud.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MPMediaItem_DZCloud/MPMediaItem_DZCloud-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1B5F83BF14D3E059007CB3D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MPMediaItem_DZCloud.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MPMediaItem_DZCloud/MPMediaItem_DZCloud-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B5F83AA14D3E058007CB3D8 /* Build configuration list for PBXProject "MPMediaItem_DZCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B5F83BB14D3E059007CB3D8 /* Debug */,
+				1B5F83BC14D3E059007CB3D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B5F83BD14D3E059007CB3D8 /* Build configuration list for PBXNativeTarget "MPMediaItem_DZCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B5F83BE14D3E059007CB3D8 /* Debug */,
+				1B5F83BF14D3E059007CB3D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B5F83A714D3E058007CB3D8 /* Project object */;
+}
